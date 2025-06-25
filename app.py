@@ -4,9 +4,9 @@ import numpy as np
 import joblib
 
 # Load your trained model
-model = joblib.load("./models/titanic_model.pkl")  
+model = joblib.load("./models/titanic_model.pkl")
 
-st.title("Titanic Survival Predictor")
+st.title("🚢 Titanic Survival Predictor")
 
 # User inputs
 pclass = st.selectbox("Passenger Class (1 = 1st, 2 = 2nd, 3 = 3rd)", [1, 2, 3])
